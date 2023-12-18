@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 from pwn import *
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad
 
 AUTH=0x201
 
